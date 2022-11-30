@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return render_template('index_main.html')
+    return render_template('index.html')
 
 
 @app.route('/portfolio')
@@ -17,7 +17,7 @@ def port():
 def sv_one():
     style = 'style.scc'
     score = 0
-    return render_template('index.html', style=style, sc=score)
+    return render_template('index_main.html', style=style, sc=score)
 
 
 if __name__ == '__main__':

@@ -1,38 +1,65 @@
-{% include "header.html" %}
-  <div class="top-container" id='title'>
-    <h1>I'm Maksat</h1>
-    <h2> a <u>pro</u>grammar</h2>
-    <img class="bottom-cloud" src='{{ url_for("static", filename="images/cloud.png")}}' alt="">
-      <img class="mountain" src="static/images/mountain.png" alt="">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="photo" src="static/images/photo.png" alt="">
-      <h2>Hello.</h2>
-      <p>I am Python and Web Developer. I love books and gardening.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="python" src="static/images/portfolio_img/Python.png" alt="python-photo">
-        <h3>Python</h3>
-        <p>I would love to code with Python with its flexibility.</p>
-      </div>
-      <div class="skill-row">
-        <img class="ski" src="static/images/skiing.png" alt=ski-photo"">
-        <h3>Skiing.</h3>
-        <p>In cold winter most people want to sit in warm home, but I really love to ski at mountains it gives me a lot of warm.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3 class="ll">If you love ski as much as I do.</h3>
-      <p class="contact-message">Love ski as much as I do? Let's talk about how cool it would be skiing! We can code wherever! even in mountains!</p>
-      <a class="btn" href="mailto:maksatkgz@gmail.com">CONTACT ME</a>
-
-    </div>
-  </div>
-
+{% include 'header.html' %}
+  <table cellspacing="20" class="all">
+    <td><img src='{{ url_for("static", filename="images/Maksat_.png")}}' alt="Maksat profile's photo"></td>
+    <td><h1>Maksat Asanbekov</h1>
+    <p><em>Solo learner of <strong>Python</strong></em></p>
+    <p>I am Web Devoloper as well as Python.</p></td>
+  </table>
+  <hr size=3>
+  <h3>Education</h3>
+  <ul>
+    <li>In 2014 graduated <a href="https://www.instagram.com/otkg.69.official/">
+        №69 - Educational Gymnasium Complex as a 9th grade.</a> </li>
+    <li>in 2018 I graduated from the university of<a href="https://kstu.kg/dovuzovskaja-podgotovka/politekhnicheskii-kolledzh">
+        Polytechnic College of KSTU by Razzakova. <br></a>
+      I was graduated as network and computer maintenance professions</li>
+    <li>in 2022 by now i am learning online cours calling <a href="https://www.udemy.com/course/100-days-of-code/">100 Days of Code:
+        The Complete Python Pro</a></li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10" class="all">
+  <thead>
+    <tr>
+    <th>Year</th>
+    <th>Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018-2019</td>
+      <td>Computer Maintenance at <a href="http://www.nt.kg/">NT Computers</a></td>
+    </tr>
+    <tr>
+      <td>2019-2020</td>
+      <td>System admin at Se7en</td>
+    </tr>
+  </tbody>
+  </table>
+  <hr>
+  <h3>Skils</h3>
+  <table cellspacing="10" class="all">
+    <td><table>
+      <tr>
+        <td>Python</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Web Devolope</td>
+        <td>⭐</td>
+      </tr>
+    </table></td>
+    <td><table>
+      <tr>
+        <td>Photography</td>
+        <td>⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Painting</td>
+        <td>⭐</td>
+      </tr>
+    </table></td>
+  </table>
+  <hr>
+  <a href="My Hobbies.html">My Hobbies</a>
 {% include 'footer.html' %}

@@ -1,20 +1,35 @@
 body {
   color: #40514E;
-  background-color: #FFE15D;
   margin: 0;
+  text-align: center;
   padding-top: 89px;
   font-family: 'Merriweather', serif;
 }
 h1 {
-  color: #66BFBF;
+  font-size: 5.62rem;
+  color: #B01E68;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
 }
-h3 {
-  color: #EB1D36;
+.download-btn {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 5% 3% 5% 0;
 }
-hr {
-  border-style: none;
-  border-top: 5px dotted grey;
-  width: 5%;
+#project {
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing_one {
+  padding: 3% 2%;
+}
+.card-img-top {
+  width: 180;
+  height: 180;
+}
+.header-for {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: -50px;
 }
 
 #navigation_bar {
@@ -28,7 +43,7 @@ hr {
 .navbar-brand {
   font-size: 3.5rem;
   padding-bottom: 0px;
-  color: white;
+  color: #B01E68;
   padding-top: 5px
 }
 
@@ -40,9 +55,138 @@ hr {
   color: white;
   font-size: 1.3rem;
 }
-
+h2 {
+  font-size: 2.5rem;
+  color: #B01E68;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6
+}
+hr {
+  width: 5%;
+  border-style: none;
+  border-top: 8px dotted;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+.top-container{
+  background-color: #FFE15D;
+}
+.middle-container {
+    margin: 100px 0;
+}
 .bottom-container {
   background-color: #FFE15D;
   padding: 50px 0 20px;
-  text-align: center;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copy-right {
+  color: white;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 213px;
+  height: 138px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  border: 300px;
+  width: 213px;
+  height: 138px;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.python {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 1px;
+}
+.ll {
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.ski {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.profile {
+  color: #40514E;
+}
+.download-btn {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5% 3% 5% 0;
+}
+.fa-brands {
+    margin-right: 10px;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3cb0fd, #2bc4ad);
+  text-decoration: none;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 89px;
+  }
+  h1 {
+    font-size: 5.62rem;
+    color: #B01E68;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    padding-top: 90px;
+  }
+  .header-for {
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-top: -50px;
+    padding-top: 90px;
+  }
+  .navbar-brand {
+    font-size: 3.5rem;
+    padding-bottom: 0px;
+    color: #B01E68;
+    padding-top: 5px
+  }
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: -20px;
+  }
 }
