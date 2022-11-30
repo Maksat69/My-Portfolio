@@ -1,0 +1,48 @@
+body {
+  color: #40514E;
+  background-color: #FFE15D;
+  margin: 0;
+  padding-top: 89px;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #EB1D36;
+}
+hr {
+  border-style: none;
+  border-top: 5px dotted grey;
+  width: 5%;
+}
+
+#navigation_bar {
+  padding: 0 15%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-color: #FFE15D;
+  font-weight: 800;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  padding-bottom: 0px;
+  color: white;
+  padding-top: 5px
+}
+
+.nav-item {
+  padding: 15px 18px 0;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.bottom-container {
+  background-color: #FFE15D;
+  padding: 50px 0 20px;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+{% include "header.html" %}
+  <div class="top-container" id='title'>
+    <h1>I'm Maksat</h1>
+    <h2> a <u>pro</u>grammar</h2>
+    <img class="bottom-cloud" src='{{ url_for("static", filename="images/cloud.png")}}' alt="">
+      <img class="mountain" src="static/images/mountain.png" alt="">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="photo" src="static/images/photo.png" alt="">
+      <h2>Hello.</h2>
+      <p>I am Python and Web Developer. I love books and gardening.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="python" src="static/images/portfolio_img/Python.png" alt="python-photo">
+        <h3>Python</h3>
+        <p>I would love to code with Python with its flexibility.</p>
+      </div>
+      <div class="skill-row">
+        <img class="ski" src="static/images/skiing.png" alt=ski-photo"">
+        <h3>Skiing.</h3>
+        <p>In cold winter most people want to sit in warm home, but I really love to ski at mountains it gives me a lot of warm.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="ll">If you love ski as much as I do.</h3>
+      <p class="contact-message">Love ski as much as I do? Let's talk about how cool it would be skiing! We can code wherever! even in mountains!</p>
+      <a class="btn" href="mailto:maksatkgz@gmail.com">CONTACT ME</a>
+
+    </div>
+  </div>
+
+{% include 'footer.html' %}
